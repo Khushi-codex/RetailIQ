@@ -95,7 +95,7 @@ API → http://localhost:8000/docs
 Dashboard → http://localhost:8501
 ---
 
-## ⭐ 2. Add “Architecture Diagram (Simple Text)”
+## ⭐ 2. “Architecture Diagram (Simple Text)”
 
 ```md
 ## 🏗️ Architecture
@@ -107,7 +107,7 @@ PostgreSQL (Docker)
 FastAPI (ML Model)
    ↓
 Streamlit Dashboard
-⭐ 3. Add “Key Features”
+⭐ 3. “Key Features”
 ## ✨ Key Features
 
 - End-to-end ML pipeline
@@ -116,21 +116,13 @@ Streamlit Dashboard
 - Interactive Streamlit dashboard
 - Dockerized full system
 - API testing with pytest
-⭐ 4. Add “Known Issues (honest + professional)”
+⭐ 4. “Known Issues (honest + professional)”
 ## ⚠️ Known Issues
 
 - Model training can produce large files if not tuned properly (fixed using max_depth)
 - Requires Docker Desktop for full setup
-⭐ 5. Add “Screenshots (VERY POWERFUL)”
 
-If you can, add:
-
-## 📸 Screenshots
-
-- API Swagger UI
-- Streamlit Dashboard
-- Prediction output
-⭐ 6. Add “What I learned”
+⭐ 5. “What I learned”
 ## 📚 What I Learned
 
 - Building full ML pipelines
