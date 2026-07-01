@@ -1,29 +1,52 @@
-# Python
+# =========================
+# Python cache
+# =========================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Virtual env
+# =========================
+# Virtual environments
+# =========================
 venv/
 .venv/
 
-# Environment
+# =========================
+# Environment variables
+# =========================
 .env
 
+# =========================
 # Model files (VERY IMPORTANT)
+# =========================
 model/*.pkl
 
-# Data files (DON'T PUSH BIG DATA)
+# =========================
+# Data files (DO NOT PUSH BIG DATA)
+# =========================
 data/train.csv
 data/X_train.csv
 data/X_test.csv
 data/y_train.csv
 data/y_test.csv
 
-# Jupyter
+# =========================
+# Jupyter Notebook checkpoints
+# =========================
 .ipynb_checkpoints/
 
-# VS Code
+# =========================
+# VS Code settings
+# =========================
 .vscode/
 
-# OS
+# =========================
+# OS files
+# =========================
 .DS_Store
+
+# =========================
+# Docker
+# =========================
+*.log
